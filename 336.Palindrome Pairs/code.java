@@ -1,3 +1,6 @@
+//这道题其实不难, 时间复杂度T = O(n^2 * k) 
+//注意两点 第一是结果中一组index的顺序问题，这个顺序表明必须按照这个顺序concatenation组成的字符串是回文字符串，
+//第二点是其中一个判断中要注明 str2.length() != 0，这一步是为了避免重复。
 class Solution {
 	public List<List<Integer>> palindromePairs(String[] words) {
 		List<List<Integer>> result = new ArrayList<>();
