@@ -1,4 +1,5 @@
 class Solution {
+	//高盛OA 跪的题
 	public List<String> removeComments(String[] source) {
 		List<String> result = new ArrayList<>();
 		boolean isComment = false;
